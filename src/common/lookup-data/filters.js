@@ -1,0 +1,68 @@
+const sizes = [
+  {
+    id: '0',
+    title: '30 - 50 m2',
+    min: 30,
+    max: 50,
+    enum: '30-50',
+    value: 3,
+  },
+  {
+    id: '1',
+    title: '50 - 70 m2',
+    min: 50,
+    max: 70,
+    enum: '50-70',
+    value: 5,
+  },
+  {
+    id: '2',
+    title: '70 - 90 m2',
+    min: 70,
+    max: 90,
+    enum: '70-90',
+    value: 7,
+  },
+  {
+    id: '3',
+    title: '90 - 110 m2',
+    min: 90,
+    max: 110,
+    enum: '90-110',
+    value: 9,
+  },
+  {
+    id: '4',
+    title: '110 - 130 m2',
+    min: 110,
+    max: 130,
+    enum: '110-130',
+    value: 11,
+  },
+  {
+    id: '5',
+    title: '130 - 150 m2',
+    min: 130,
+    max: 150,
+    enum: '130-150',
+    value: 13,
+  },
+  {
+    id: '6',
+    title: '150 - 170 m2',
+    min: 150,
+    max: 170,
+    enum: '150-170',
+    value: 15,
+  },
+  {
+    id: '7',
+    title: '> 170 m2',
+    min: 170,
+    max: 10000,
+    enum: '>170',
+    value: 17,
+  },
+];
+
+export { sizes };
